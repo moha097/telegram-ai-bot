@@ -20,7 +20,7 @@ def ask_ai(update, context):
 
     update.message.reply_text(response)
 
-updater = Updater(TELEGRAM_TOKEN, use_context=True)
+updater = Updater(8240507823:AAEyx0tSxBVmvxmc1GgqhT_VCEVprrixHeQ, use_context=True)
 dp = updater.dispatcher
 
 dp.add_handler(CommandHandler("start", start))
