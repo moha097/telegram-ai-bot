@@ -3,8 +3,9 @@ import requests
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
 # Récupérer ton token Telegram et ta clé API
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
-DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
+TELEGRAM_TOKEN = os.getenv("8240507823:AAEyx0tSxBVmvxmc1GgqhT_VCEVprrixHeQ
+")
+DEEPSEEK_API_KEY = os.getenv("sk-d136d37f5c55475eb8153b43ffde7831")
 
 def start(update, context):
     update.message.reply_text("👋 Salut, je suis ton bot IA Python !")
